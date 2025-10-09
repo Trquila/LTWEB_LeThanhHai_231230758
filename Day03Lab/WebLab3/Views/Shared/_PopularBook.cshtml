@@ -1,0 +1,16 @@
+﻿@model IEnumerable<WebLab3.Models.Book>
+
+@foreach (var item in Model)
+{
+    <div class="col-md-3 mb-3">
+        <div class="card h-100">
+            <img src="~/images/products/@item.Image"
+                 class="card-img-top"
+                 alt="@item.Title" />
+            <div class="card-body">
+                <h5 class="card-title">@item.Title</h5>
+                <p class="card-text">@item.Price.ToString("N0") VNĐ</p>
+            </div>
+        </div>
+    </div>
+}

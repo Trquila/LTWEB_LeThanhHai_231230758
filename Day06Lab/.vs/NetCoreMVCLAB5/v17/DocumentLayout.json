@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|c:\\users\\hello\\source\\repos\\laptrinhwebutc\\th6_validationannotation\\netcoremvclab5\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|c:\\users\\hello\\source\\repos\\laptrinhwebutc\\th6_validationannotation\\netcoremvclab5\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|solutionrelative:views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|c:\\users\\hello\\source\\repos\\laptrinhwebutc\\th6_validationannotation\\netcoremvclab5\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|c:\\users\\hello\\source\\repos\\laptrinhwebutc\\th6_validationannotation\\netcoremvclab5\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|c:\\users\\hello\\source\\repos\\laptrinhwebutc\\th6_validationannotation\\netcoremvclab5\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571A1B69-228E-40FF-9BE0-E503B4540DC6}|NetCoreMVCLAB5.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T14:03:24.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Views\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Views\\Account\\Create.cshtml",
+              "RelativeToolTip": "Views\\Account\\Create.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T15:45:33.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T15:40:19.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowGIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:31:51.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LapTrinhWebUTC\\TH6_ValidationAnnotation\\NetCoreMVCLAB5\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:04:49.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
