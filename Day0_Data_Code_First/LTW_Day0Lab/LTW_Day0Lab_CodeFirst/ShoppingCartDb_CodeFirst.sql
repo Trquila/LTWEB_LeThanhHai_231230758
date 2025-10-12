@@ -1,0 +1,3 @@
+CREATE DATABASE ShoppingCartDb_CodeFirst;
+GO
+USE ShoppingCartDb_CodeFirst;

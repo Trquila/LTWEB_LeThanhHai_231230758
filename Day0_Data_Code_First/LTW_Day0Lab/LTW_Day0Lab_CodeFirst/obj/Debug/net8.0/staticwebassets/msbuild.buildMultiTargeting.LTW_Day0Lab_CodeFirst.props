@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LTW_Day0Lab_CodeFirst.props" />
+</Project>
