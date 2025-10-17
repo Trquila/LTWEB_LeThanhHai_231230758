@@ -1,0 +1,47 @@
+﻿@model IEnumerable<TvcDay09.Models.Tvc_Loai_San_Pham>
+
+@{
+    ViewData["Title"] = "tvcIndex";
+}
+
+<h1>Danh sách loại sản phẩm</h1>
+
+<p>
+    <a asp-action="tvcCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.tvcMaLoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tvcTenLoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tvcTrangThai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.tvcMaLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tvcTenLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tvcTrangThai)
+            </td>
+            <td>
+                <a asp-action="tvcEdit" asp-route-id="@item.tvcId">Edit</a> |
+                <a asp-action="tvcDetails" asp-route-id="@item.tvcId">Details</a> |
+                <a asp-action="tvcDelete" asp-route-id="@item.tvcId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<TvcDay09.Models.TvcSan_Pham>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.tvcMaSanPham)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tvcTenSanPham)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tvcHinhAnh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tvcSoLuong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tvcDonGia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tvcLoaiSanPhamID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.tvcMaSanPham)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tvcTenSanPham)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tvcHinhAnh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tvcSoLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tvcDonGia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tvcLoaiSanPhamID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.tvcID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.tvcID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.tvcID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
