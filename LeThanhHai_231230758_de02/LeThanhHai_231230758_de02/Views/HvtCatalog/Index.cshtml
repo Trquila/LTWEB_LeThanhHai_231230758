@@ -1,0 +1,42 @@
+﻿@model IEnumerable<LeThanhHai_231230758_de02.Models.HvtCatalog>
+@{
+    ViewData["Title"] = "Danh sách HvtCatalog";
+}
+<h2>Danh sách sản phẩm</h2>
+<p><a asp-action="Create">Thêm mới</a></p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Tổng tiền</th>
+            <th>Ảnh</th>
+            <th>Trạng thái</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.hvtCateName</td>
+                <td>@item.hvtCatePrice.ToString("N2")</td>
+                <td>@item.hvtCateQty</td>
+                <td>@(item.hvtCatePrice* item.hvtCateQty)</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.hvtPicture))
+                    {
+                        <img src="~/images/@item.hvtPicture" style="max-width:80px" />
+                    }
+                </td>
+                <td>@(item.hvtCateActive ? "Active" : "Non-Active")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.hvtId">Xem</a> |
+                    <a asp-action="Edit" asp-route-id="@item.hvtId">Sửa</a> |
+                    <a asp-action="Delete" asp-route-id="@item.hvtId">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

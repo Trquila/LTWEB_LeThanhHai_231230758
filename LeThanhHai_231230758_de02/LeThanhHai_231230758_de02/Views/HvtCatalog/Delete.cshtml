@@ -1,0 +1,35 @@
+﻿@model LeThanhHai_231230758_de02.Models.HvtCatalog
+
+@{
+    ViewData["Title"] = "Delete HvtCatalog";
+}
+
+<h2>Xóa danh mục</h2>
+<hr />
+
+<h3>Bạn có chắc chắn muốn xóa danh mục này không?</h3>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Tên danh mục</dt>
+        <dd class="col-sm-10">@Model.hvtCateName</dd>
+
+        <dt class="col-sm-2">Giá</dt>
+        <dd class="col-sm-10">@Model.hvtCatePrice</dd>
+
+        <dt class="col-sm-2">Số lượng</dt>
+        <dd class="col-sm-10">@Model.hvtCateQty</dd>
+
+        <dt class="col-sm-2">Hình ảnh</dt>
+        <dd class="col-sm-10">@Model.hvtPicture</dd>
+
+        <dt class="col-sm-2">Kích hoạt</dt>
+        <dd class="col-sm-10">@Model.hvtCateActive</dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="hvtId" />
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

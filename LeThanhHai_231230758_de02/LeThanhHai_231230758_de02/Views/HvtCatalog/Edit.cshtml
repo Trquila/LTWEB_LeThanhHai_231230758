@@ -1,0 +1,50 @@
+﻿@model LeThanhHai_231230758_de02.Models.HvtCatalog
+
+@{
+    ViewData["Title"] = "Edit HvtCatalog";
+}
+
+<h2>Chỉnh sửa danh mục</h2>
+<hr />
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="hvtId" />
+
+    <div class="form-group">
+        <label asp-for="hvtCateName" class="control-label"></label>
+        <input asp-for="hvtCateName" class="form-control" />
+        <span asp-validation-for="hvtCateName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="hvtCatePrice" class="control-label"></label>
+        <input asp-for="hvtCatePrice" class="form-control" />
+        <span asp-validation-for="hvtCatePrice" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="hvtCateQty" class="control-label"></label>
+        <input asp-for="hvtCateQty" class="form-control" />
+        <span asp-validation-for="hvtCateQty" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="hvtPicture" class="control-label"></label>
+        <input asp-for="hvtPicture" class="form-control" />
+        <span asp-validation-for="hvtPicture" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="hvtCateActive" class="control-label"></label>
+        <input asp-for="hvtCateActive" type="checkbox" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

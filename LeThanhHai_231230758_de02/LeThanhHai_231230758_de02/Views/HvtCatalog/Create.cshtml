@@ -1,0 +1,42 @@
+﻿@model LeThanhHai_231230758_de02.Models.HvtCatalog
+@{
+    ViewData["Title"] = "Thêm mới";
+}
+<h2>Thêm mới sản phẩm</h2>
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="hvtCateName"></label>
+        <input asp-for="hvtCateName" class="form-control" />
+        <span asp-validation-for="hvtCateName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="hvtCatePrice"></label>
+        <input asp-for="hvtCatePrice" class="form-control" />
+        <span asp-validation-for="hvtCatePrice" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="hvtCateQty"></label>
+        <input asp-for="hvtCateQty" class="form-control" />
+        <span asp-validation-for="hvtCateQty" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="hvtPicture">Tên file ảnh (upload thủ công vào wwwroot/images)</label>
+        <input asp-for="hvtPicture" class="form-control" />
+        <span asp-validation-for="hvtPicture" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="hvtCateActive"></label>
+        <select asp-for="hvtCateActive" class="form-control">
+            <option value="true">Active</option>
+            <option value="false">Non-Active</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

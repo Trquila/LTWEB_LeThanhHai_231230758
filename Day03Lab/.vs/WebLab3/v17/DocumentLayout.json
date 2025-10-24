@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hello\\source\\repos\\WebLab3\\",
+  "WorkspaceRootPath": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|c:\\users\\hello\\source\\repos\\weblab3\\weblab3\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|c:\\users\\hello\\ltweb_lethanhhai_231230758\\day03lab\\weblab3\\controllers\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|solutionrelative:weblab3\\controllers\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|c:\\users\\hello\\ltweb_lethanhhai_231230758\\day03lab\\weblab3\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|solutionrelative:weblab3\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|c:\\users\\hello\\ltweb_lethanhhai_231230758\\day03lab\\weblab3\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|solutionrelative:weblab3\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|c:\\users\\hello\\ltweb_lethanhhai_231230758\\day03lab\\weblab3\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|solutionrelative:weblab3\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|c:\\users\\hello\\ltweb_lethanhhai_231230758\\day03lab\\weblab3\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D5039AA-691C-4495-AB9C-E90BAFC2A259}|WebLab3\\WebLab3.csproj|solutionrelative:weblab3\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +30,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 133,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\WebLab3\\WebLab3\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "WebLab3\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\Hello\\source\\repos\\WebLab3\\WebLab3\\Models\\Book.cs",
-              "RelativeToolTip": "WebLab3\\Models\\Book.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Controllers\\Book.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Controllers\\Book.cs",
+              "ToolTip": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Controllers\\Book.cs",
+              "RelativeToolTip": "WebLab3\\Controllers\\Book.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T09:32:37.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Book\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T09:32:20.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Book\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Book\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T09:32:19.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebLab3\\Views\\Book\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "WebLab3\\Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T09:32:13.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "WebLab3\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Hello\\LTWEB_LeThanhHai_231230758\\Day03Lab\\WebLab3\\Models\\Book.cs",
+              "RelativeToolTip": "WebLab3\\Models\\Book.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T17:19:45.404Z",
               "EditorCaption": ""

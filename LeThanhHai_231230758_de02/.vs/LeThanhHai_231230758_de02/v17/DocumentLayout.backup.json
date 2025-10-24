@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\views\\hvtcatalog\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\views\\hvtcatalog\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\views\\hvtcatalog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\views\\hvtcatalog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\views\\hvtcatalog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\views\\hvtcatalog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\views\\hvtcatalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\views\\hvtcatalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\views\\home\\hvtabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\views\\home\\hvtabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\controllers\\hvtcatalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\controllers\\hvtcatalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\controllers\\hvthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\controllers\\hvthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\models\\hvtcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\models\\hvtcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|c:\\users\\hello\\source\\repos\\lethanhhai_231230758_de02\\lethanhhai_231230758_de02\\views\\home\\hvtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A1EBFB9-4676-4C3C-ABF7-EA89DF0DAB61}|LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02.csproj|solutionrelative:lethanhhai_231230758_de02\\views\\home\\hvtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Delete.cshtml*",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Delete.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T04:19:17.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Edit.cshtml*",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Edit.cshtml*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T04:17:21.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Create.cshtml",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Create.cshtml",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T04:06:41.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HvtIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\Home\\HvtIndex.cshtml",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Views\\Home\\HvtIndex.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\Home\\HvtIndex.cshtml",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Views\\Home\\HvtIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T03:47:06.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HvtAbout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\Home\\HvtAbout.cshtml",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Views\\Home\\HvtAbout.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\Home\\HvtAbout.cshtml",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Views\\Home\\HvtAbout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T03:43:36.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:30:02.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\appsettings.json",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\appsettings.json",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T03:37:33.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Index.cshtml",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Index.cshtml",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Views\\HvtCatalog\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T04:06:24.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HvtHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Controllers\\HvtHomeController.cs",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Controllers\\HvtHomeController.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Controllers\\HvtHomeController.cs",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Controllers\\HvtHomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:40:29.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Program.cs",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Program.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Program.cs",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:34:21.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HvtCatalogController.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Controllers\\HvtCatalogController.cs",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Controllers\\HvtCatalogController.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Controllers\\HvtCatalogController.cs",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Controllers\\HvtCatalogController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:49:50.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HvtCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Models\\HvtCatalog.cs",
+              "RelativeDocumentMoniker": "LeThanhHai_231230758_de02\\Models\\HvtCatalog.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\LeThanhHai_231230758_de02\\LeThanhHai_231230758_de02\\Models\\HvtCatalog.cs",
+              "RelativeToolTip": "LeThanhHai_231230758_de02\\Models\\HvtCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T03:08:53.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
