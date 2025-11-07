@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hello\\source\\repos\\THLab01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|c:\\users\\hello\\source\\repos\\thlab01\\thlab01\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D74BE3-02D3-4B54-A73A-C608E1CB5F28}|THLab01\\THLab01.csproj|solutionrelative:thlab01\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "THLab01\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "THLab01\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-07T04:00:06.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Shared\\MyLayout.cshtml",
+              "RelativeDocumentMoniker": "THLab01\\Views\\Shared\\MyLayout.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Shared\\MyLayout.cshtml",
+              "RelativeToolTip": "THLab01\\Views\\Shared\\MyLayout.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T03:58:59.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "THLab01\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "THLab01\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T03:45:47.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "THLab01\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "THLab01\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwD0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T03:41:23.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "THLab01\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "THLab01\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T03:41:09.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "THLab01\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "THLab01\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T03:38:29.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "THLab01\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "THLab01\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T03:20:54.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "THLab01\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "THLab01\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-07T03:02:41.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "THLab01\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "THLab01\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:51:08.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "THLab01\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Models\\Student.cs",
+              "RelativeToolTip": "THLab01\\Models\\Student.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAC0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:45:48.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "THLab01\\Models\\Branch.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Models\\Branch.cs",
+              "RelativeToolTip": "THLab01\\Models\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:44:57.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Models\\Gender.cs",
+              "RelativeDocumentMoniker": "THLab01\\Models\\Gender.cs",
+              "ToolTip": "C:\\Users\\Hello\\source\\repos\\THLab01\\THLab01\\Models\\Gender.cs",
+              "RelativeToolTip": "THLab01\\Models\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:43:20.391Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
