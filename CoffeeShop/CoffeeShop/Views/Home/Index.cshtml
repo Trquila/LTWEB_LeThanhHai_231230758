@@ -1,0 +1,149 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ - Coffee Shop";
+}
+
+<!-- Hero Section -->
+<section class="hero-section bg-dark text-white py-5 mb-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-4 fw-bold">Khám phá thế giới cà phê</h1>
+                <p class="lead">Thưởng thức hương vị cà phê tuyệt hảo từ những hạt cà phê chất lượng cao nhất.</p>
+                <a href="@Url.Action("Index", "Product")" class="btn btn-primary btn-lg">Mua ngay</a>
+            </div>
+            <div class="col-md-6">
+                <img src="~/images/hero-coffee.jpg" alt="Coffee" class="img-fluid rounded" style="max-height: 400px; width: 100%; object-fit: cover;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="featured-products mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Sản phẩm nổi bật</h2>
+        <div class="row">
+            @foreach (var product in ViewBag.FeaturedProducts)
+            {
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 product-card">
+                        <img src="~/uploads/products/@product.Image" class="card-img-top" alt="@product.Name" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text text-muted">@product.Description</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price text-primary fw-bold">@product.Price.ToString("N0") VND</span>
+                                <button class="btn btn-primary btn-sm add-to-cart" data-product-id="@product.Id">
+                                    <i class="fas fa-cart-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="@Url.Action("Detail", "Product", new { id = product.Id })" class="btn btn-outline-primary btn-sm w-100">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="categories mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Danh mục sản phẩm</h2>
+        <div class="row">
+            @foreach (var category in ViewBag.Categories)
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card category-card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">@category.Name</h5>
+                            <p class="card-text">@category.Description</p>
+                            <a href="@Url.Action("Index", "Product", new { categoryId = category.Id })" class="btn btn-outline-primary">Xem sản phẩm</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Featured Blogs -->
+<section class="featured-blogs mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Bài viết mới nhất</h2>
+        <div class="row">
+            @foreach (var blog in ViewBag.FeaturedBlogs)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="~/uploads/blogs/@blog.Image" class="card-img-top" alt="@blog.Title" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">@blog.Title</h5>
+                            <p class="card-text">@blog.Summary</p>
+                            <a href="@Url.Action("Detail", "Blog", new { id = blog.Id })" class="btn btn-outline-primary">Đọc thêm</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add to cart functionality
+            const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const productId = this.getAttribute('data-product-id');
+                    addToCart(productId);
+                });
+            });
+        });
+
+        function addToCart(productId, quantity = 1) {
+            fetch('@Url.Action("AddToCart", "Cart")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                },
+                body: JSON.stringify({ productId: productId, quantity: quantity })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showAlert('success', data.message);
+                } else {
+                    showAlert('error', data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showAlert('error', 'Có lỗi xảy ra khi thêm vào giỏ hàng');
+            });
+        }
+
+        function showAlert(type, message) {
+            const alertDiv = document.createElement('div');
+            alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+            alertDiv.style.cssText = 'position: fixed; top: 20px; right: 20px; z-index: 9999; min-width: 300px;';
+            alertDiv.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+
+            document.body.appendChild(alertDiv);
+
+            setTimeout(() => {
+                if (alertDiv.parentNode) {
+                    alertDiv.parentNode.removeChild(alertDiv);
+                }
+            }, 3000);
+        }
+    </script>
+}

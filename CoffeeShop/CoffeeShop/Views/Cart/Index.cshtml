@@ -1,0 +1,144 @@
+﻿@model List<CoffeeShop.Models.Cart>
+@{
+    ViewData["Title"] = "Giỏ hàng - Coffee Shop";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Giỏ hàng của bạn</h2>
+
+        @if (Model.Count == 0)
+        {
+            <div class="alert alert-info">
+                <p>Giỏ hàng của bạn đang trống.</p>
+                <a href="@Url.Action("Index", "Product")" class="btn btn-primary">Tiếp tục mua sắm</a>
+            </div>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+                <div class="card mb-3 cart-item">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="~/uploads/products/@item.Product.Image" class="img-fluid rounded" alt="@item.Product.Name">
+                            </div>
+                            <div class="col-md-6">
+                                <h5>@item.Product.Name</h5>
+                                <p class="text-muted">@item.Product.Category.Name</p>
+                                <p class="text-primary fw-bold">@item.Product.Price.ToString("N0") VND</p>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="number" class="form-control quantity-input"
+                                       value="@item.Quantity" min="1" max="100"
+                                       data-cart-id="@item.Id">
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-danger btn-sm remove-from-cart"
+                                        data-cart-id="@item.Id">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div class="d-flex justify-content-between">
+                <a href="@Url.Action("Index", "Product")" class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-left"></i> Tiếp tục mua sắm
+                </a>
+                <a href="@Url.Action("Checkout", "Cart")" class="btn btn-primary">
+                    Thanh toán <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        }
+    </div>
+
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5>Tổng thanh toán</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between mb-2">
+                    <span>Tạm tính:</span>
+                    <span id="subtotal">@ViewBag.CartTotal.ToString("N0") VND</span>
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                    <span>Phí vận chuyển:</span>
+                    <span>0 VND</span>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between mb-3">
+                    <strong>Tổng cộng:</strong>
+                    <strong id="total">@ViewBag.CartTotal.ToString("N0") VND</strong>
+                </div>
+                <a href="@Url.Action("Checkout", "Cart")" class="btn btn-primary w-100 @(Model.Count == 0 ? "disabled" : "")">
+                    Tiến hành thanh toán
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Update quantity
+            const quantityInputs = document.querySelectorAll('.quantity-input');
+            quantityInputs.forEach(input => {
+                input.addEventListener('change', function() {
+                    const cartId = this.getAttribute('data-cart-id');
+                    const quantity = this.value;
+                    updateQuantity(cartId, quantity);
+                });
+            });
+
+            // Remove item
+            const removeButtons = document.querySelectorAll('.remove-from-cart');
+            removeButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const cartId = this.getAttribute('data-cart-id');
+                    removeFromCart(cartId);
+                });
+            });
+        });
+
+        function updateQuantity(cartId, quantity) {
+            fetch('@Url.Action("UpdateQuantity", "Cart")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                },
+                body: JSON.stringify({ cartId: parseInt(cartId), quantity: parseInt(quantity) })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById('subtotal').textContent = data.total + ' VND';
+                    document.getElementById('total').textContent = data.total + ' VND';
+                }
+            });
+        }
+
+        function removeFromCart(cartId) {
+            fetch('@Url.Action("RemoveFromCart", "Cart")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                },
+                body: JSON.stringify({ cartId: parseInt(cartId) })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    location.reload();
+                }
+            });
+        }
+    </script>
+}

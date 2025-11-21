@@ -1,0 +1,135 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "_AdminLayout";
+}
+
+<div class="row">
+    <div class="col-md-3 mb-4">
+        <div class="stats-card primary">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h3>@ViewBag.Stats.TotalProducts</h3>
+                    <p>Sản phẩm</p>
+                </div>
+                <div class="align-self-center">
+                    <i class="fas fa-coffee fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-4">
+        <div class="stats-card success">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h3>@ViewBag.Stats.TotalOrders</h3>
+                    <p>Đơn hàng</p>
+                </div>
+                <div class="align-self-center">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-4">
+        <div class="stats-card info">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h3>@ViewBag.Stats.TotalUsers</h3>
+                    <p>Người dùng</p>
+                </div>
+                <div class="align-self-center">
+                    <i class="fas fa-users fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-4">
+        <div class="stats-card warning">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h3>@ViewBag.Stats.PendingOrders</h3>
+                    <p>Đơn chờ xử lý</p>
+                </div>
+                <div class="align-self-center">
+                    <i class="fas fa-clock fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5>Đơn hàng gần đây</h5>
+            </div>
+            <div class="card-body">
+                @if (ViewBag.RecentOrders.Count > 0)
+                {
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Mã đơn</th>
+                                    <th>Khách hàng</th>
+                                    <th>Tổng tiền</th>
+                                    <th>Trạng thái</th>
+                                    <th>Ngày đặt</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in ViewBag.RecentOrders)
+                                {
+                                    <tr>
+                                        <td>#@order.Id</td>
+                                        <td>@order.CustomerName</td>
+                                        <td>@order.TotalAmount.ToString("N0") VND</td>
+                                        <td>
+                                            <span class="badge
+                                                        @(order.Status == "pending" ? "bg-warning" :
+                                                                                                    order.Status == "confirmed" ? "bg-info" :
+                                                                                                    order.Status == "delivered" ? "bg-success" : "bg-danger")">
+                                        @order.Status
+                                    </span>
+                                </td>
+                                <td>@order.CreatedAt.ToString("dd/MM/yyyy")</td>
+                            </tr>
+                                                        }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted">Chưa có đơn hàng nào.</p>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5>Thống kê nhanh</h5>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <strong>Doanh thu:</strong>
+                    <span class="float-end text-success">@ViewBag.Stats.TotalRevenue.ToString("N0") VND</span>
+                </div>
+                <div class="mb-3">
+                    <strong>Đơn hàng chờ xử lý:</strong>
+                    <span class="float-end text-warning">@ViewBag.Stats.PendingOrders</span>
+                </div>
+                <div class="mb-3">
+                    <strong>Tổng sản phẩm:</strong>
+                    <span class="float-end text-primary">@ViewBag.Stats.TotalProducts</span>
+                </div>
+                <div class="mb-3">
+                    <strong>Tổng người dùng:</strong>
+                    <span class="float-end text-info">@ViewBag.Stats.TotalUsers</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,100 @@
+﻿@model CoffeeShop.Models.Product
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    Layout = "_AdminLayout";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Chi tiết sản phẩm</h2>
+    <a href="@Url.Action("Index", "AdminProduct")" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Quay lại
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5>Thông tin sản phẩm</h5>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>ID:</th>
+                        <td>@Model.Id</td>
+                    </tr>
+                    <tr>
+                        <th>Tên sản phẩm:</th>
+                        <td>@Model.Name</td>
+                    </tr>
+                    <tr>
+                        <th>Danh mục:</th>
+                        <td>@Model.Category?.Name</td>
+                    </tr>
+                    <tr>
+                        <th>Giá:</th>
+                        <td>@Model.Price.ToString("N0") VND</td>
+                    </tr>
+                    <tr>
+                        <th>Nổi bật:</th>
+                        <td>
+                            @if (Model.Featured)
+                            {
+                                <span class="badge bg-success">Có</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Không</span>
+                            }
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Trạng thái:</th>
+                        <td>
+                            @if (Model.Status)
+                            {
+                                <span class="badge bg-success">Hiển thị</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Ẩn</span>
+                            }
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Ngày tạo:</th>
+                        <td>@Model.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                    </tr>
+                    <tr>
+                        <th>Ngày cập nhật:</th>
+                        <td>@Model.UpdatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5>Hình ảnh sản phẩm</h5>
+                @if (!string.IsNullOrEmpty(Model.Image))
+                {
+                    <img src="~/uploads/products/@Model.Image" alt="@Model.Name"
+                         class="img-fluid rounded" style="max-height: 300px;">
+                }
+                else
+                {
+                    <p class="text-muted">Chưa có hình ảnh</p>
+                }
+
+                <h5 class="mt-4">Mô tả</h5>
+                <p>@Model.Description</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a href="@Url.Action("Edit", "AdminProduct", new { id = Model.Id })" class="btn btn-warning">
+        <i class="fas fa-edit"></i> Chỉnh sửa
+    </a>
+</div>

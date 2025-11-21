@@ -1,0 +1,46 @@
+﻿@* Remove model declaration to avoid null reference *@
+@{
+    ViewData["Title"] = "Error";
+    var requestId = System.Diagnostics.Activity.Current?.Id ?? Context.TraceIdentifier;
+    var showRequestId = !string.IsNullOrEmpty(requestId);
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <div class="error-container">
+                <i class="fas fa-exclamation-triangle fa-5x text-warning mb-4"></i>
+                <h1 class="text-danger">Oops! Có lỗi xảy ra</h1>
+                <h2 class="text-muted">Đã xảy ra lỗi trong quá trình xử lý yêu cầu của bạn.</h2>
+
+                @if (showRequestId)
+                {
+                    <div class="alert alert-info mt-4">
+                        <strong>Mã yêu cầu:</strong> <code>@requestId</code>
+                    </div>
+                }
+
+                <div class="mt-4">
+                    <p class="lead">Xin lỗi vì sự bất tiện này. Vui lòng thử lại sau.</p>
+                    <div class="d-flex justify-content-center gap-3 mt-4">
+                        <a href="@Url.Action("Index", "Home")" class="btn btn-primary">
+                            <i class="fas fa-home"></i> Về trang chủ
+                        </a>
+                        <a href="javascript:history.back()" class="btn btn-outline-secondary">
+                            <i class="fas fa-arrow-left"></i> Quay lại
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .error-container {
+        padding: 3rem 2rem;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    }
+</style>
